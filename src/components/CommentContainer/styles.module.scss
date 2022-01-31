@@ -1,0 +1,25 @@
+@import "./../../colors.scss";
+
+.container {
+  .title {
+    line-height: 25px;
+    color: $font-secondary;
+    font-weight: 500;
+  }
+  textarea {
+    display: block;
+    width: 100%;
+    min-height: 60px;
+    box-sizing: border-box;
+
+    font-family: 'Fira Sans', sans-serif;
+    padding: 5px 10px;
+    font-size: 13px;
+    border: 1px solid $border-dark;
+    border-radius: 5px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
